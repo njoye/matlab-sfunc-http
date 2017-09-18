@@ -22,7 +22,7 @@ is the compiled version of _sfunc.cpp_. See **Compiling with _mex_** for more in
 4. Click the "Play" / "Run" Button (easy, huh?:) )
 
 
-## Compiling with _mex_
+## Compiling with ```mex```
 #### Unix
 I've used [cURL](https://curl.haxx.se/libcurl/) in this code, simply because it's easy. You'll find many examples of how to install libcurl on your computer, so I won't explain that here as well. After that, you'll have to find the cURL library on your computer in order to tell ```mex``` where ```#include <curl/curl.h>``` is at, so that everything compiles properly. 
 
