@@ -35,9 +35,12 @@ After properly compiling the ```.cpp``` file, there will be a new file in your d
 #### Windows
 Since I had to build a similar project like this on Windows as well and ran into some dumb errors, I'll also add an instruction for Windows compilation now.
 
-###### Prerequisites:
-Microsoft Visual Studio 2017 (Community) - For .lib compilation
-Microsoft Visual Studio 2015 (Community) - For mex compilation inside MatLab
+**Prerequisites**
+
+- Microsoft Visual Studio 2017 (Community) - For .lib compilation
+
+- Microsoft Visual Studio 2015 (Community) - For mex compilation inside MatLab
+
 After installing VS 2017 I followed [this](https://docs.lenux.org/libcurl-mit-visual-studio-2017 "libcurl-mit-visual-studio") article. If you don't know german, the following part is for you:
 
 1. Open your CMD and execute
