@@ -12,8 +12,8 @@
  *      Also: This function will get executed 5 times. Everytime, a new cURL Request will be made and a new random number will be visible on the display 
  */
 
-#include "mex.h" //mex functions like mexPrintf
-#include <iostream> //Standard iostream, don't know if this is necessary, could be though
+// #include "mex.h" //mex functions like mexPrintf (figured that this in actually not necessary)
+#include <iostream> //Standard iostream
 #include <string> //String for using ... well, strings
 #include <curl/curl.h> //Include cURL for easier HTTP Requests
 
